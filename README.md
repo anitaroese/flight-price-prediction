@@ -5,6 +5,8 @@
 ## Overview
 Airfare changes constantly, which makes it hard to know the best time to buy a ticket. This project uses machine learning to predict U.S. domestic flight prices and to tell a traveler whether to **buy now** or **wait** for a price drop.
 
+📄 [Project proposal](docs/project_proposal.pdf)
+
 ## Goals
 1. **Predict ticket prices** with multiple linear regression
 2. **Recommend when to buy** with logistic regression: label each search **"wait"** (1) if the same flight's price drops within the next 7 days, and **"buy now"** (0) otherwise
@@ -44,6 +46,7 @@ From exploratory analysis of a 1% random sample (821,388 rows):
 ```
 flight-price-prediction/
 ├── 01_dataset_overview.ipynb   # dataset size, structure, and first exploration
+├── docs/                       # project proposal
 ├── figures/                    # saved plots
 ├── .gitignore
 └── README.md
